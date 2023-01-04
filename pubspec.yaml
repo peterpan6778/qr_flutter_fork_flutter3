@@ -1,0 +1,22 @@
+name: qr_flutter
+description: >
+  QR.Flutter is a Flutter library for simple and fast QR code rendering via a
+  Widget or custom painter.
+version: 4.0.2
+homepage: https://github.com/theyakka/qr.flutter
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  qr: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.16.5
+
+flutter:
+  uses-material-design: false
